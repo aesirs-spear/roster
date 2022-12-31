@@ -1,0 +1,341 @@
+- name: "MusicalSurfer"
+  color: "darkblue"
+  positionName: "Jarl"
+  children:
+    - name: "Raider Corps"
+      isDivision: true
+      color: "rgb(209, 109, 106)"
+      textColor: "black"
+      children:
+        - name: "GeneralGraybeard"
+          color: "rgb(258, 239, 218)"
+          textColor: "black"
+          positionName: "Commanding Officer"
+          children:
+            - name: "therazorbeast"
+              color: "rgb(248, 229, 208)"
+              textColor: "black"
+              positionName: "Executive Officer"
+              children:
+                - name: "Serene.Haze"
+                  color: "rgb(238, 219, 198)"
+                  textColor: "black"
+                  positionName: "Rauðr Detachment Leader"
+                  children:
+                  - name: "ckspecial"
+                    color: "rgb(189, 75, 49)"
+                    positionName: "Vargr Squad Leader"
+                    children:
+                    - name: "Fire Team 1"
+                      isDivision: true
+                      isFireTeam: true
+                      color: "rgb(209, 109, 106)"
+                      children:
+                        - name: "1nvisible"
+                          color: "darkred"
+                          positionName: "1-1"
+                        - name: "1-2"
+                          color: "darkred"
+                          positionName: "1-2"
+                        - name: "1-3"
+                          color: "darkred"
+                          positionName: "1-3"
+                        - name: "1-4"
+                          color: "darkred"
+                          positionName: "1-4"
+                    - name: "Fire Team 2"
+                      isDivision: true
+                      isFireTeam: true
+                      color: "rgb(209, 109, 106)"
+                      children:
+                        - name: "ISUC"
+                          color: "darkred"
+                          positionName: "2-1"
+                        - name: "MosheA"
+                          color: "darkred"
+                          positionName: "2-2"
+                        - name: "2-3"
+                          color: "darkred"
+                          positionName: "2-3"
+                        - name: "2-4"
+                          color: "darkred"
+                          positionName: "2-3"
+                  - name: "Mandrid"
+                    color: "rgb(189, 75, 49)"
+                    positionName: "Bjǫrn Squad Leader"
+                    children:
+                    - name: "Fire Team 3"
+                      isDivision: true
+                      isFireTeam: true
+                      color: "rgb(209, 109, 106)"
+                      children:
+                        - name: "Achilles"
+                          color: "darkred"
+                          positionName: "3-1"
+                        - name: "3-2"
+                          color: "darkred"
+                          positionName: "3-2"
+                        - name: "3-3"
+                          color: "darkred"
+                          positionName: "3-3"
+                        - name: "3-4"
+                          color: "darkred"
+                          positionName: "3-4"
+                    - name: "Fire Team 4"
+                      isDivision: true
+                      isFireTeam: true
+                      color: "rgb(209, 109, 106)"
+                      children:
+                        - name: "LordAsiimov"
+                          color: "darkred"
+                          positionName: "4-1"
+                        - name: "skimbeeble"
+                          color: "darkred"
+                          positionName: "4-2"
+                        - name: "4-3"
+                          color: "darkred"
+                          positionName: "4-4"
+                        - name: "4-4"
+                          color: "darkred"
+                          positionName: "4-4"
+    - name: "Commerce"
+      isDivision: true
+      color: rgb(236, 180, 118)
+      textColor: "black"
+      children:
+        - name: "6th_TòóGòóĐ"
+          color: "rgb(258, 239, 218)"
+          textColor: "black"
+          positionName: "Commerce Leader"
+          children:
+            - name: "MattIron"
+              color: "#FFD8BE"
+              textColor: "black"
+              positionName: " "
+            - name: "AnEvilSithLord"
+              color: "#FFD8BE"
+              textColor: "black"
+              positionName: " "
+    - name: "Navy"
+      isDivision: true
+      color: "rgb(128, 164, 173)"
+      textColor: "black"
+      children:
+        - name: "Driphire"
+          color: "rgb(88, 124, 133)"
+          positionName: "Admiral"
+          children:
+            - name: "Fleet Command"
+              isDivision: true
+              color: "rgb(0, 120, 180)"
+              children:
+                - name: "MusicalSurfer"
+                  color: "rgb(0, 20, 120)"
+                  positionName: "Fleet Commander"
+                  children:
+                    - name: "101st Battle Group"
+                      isDivision: true
+                      color: "rgb(0, 120, 180)"
+                      children:
+                      - name: "CVE-141 Escort Group"
+                        isDivision: true
+                        isFireTeam: true
+                        color: "rgb(0, 120, 180)"
+                        children:
+                          - name: "TBD"
+                            positionName: "Escort Group Leader"
+                            color: "rgb(0, 20, 120)"
+                            children:
+                              - name: "Hammerhead"
+                                isDivision: true
+                                color: "rgb(0, 120, 180)"
+                                children:
+                                  - name: "TBD"
+                                    positionName: "Captain"
+                                    color: "rgb(0, 80, 180)"
+                                  - name: "TBD"
+                                    positionName: "Pilot"
+                                    color: "rgb(0, 120, 180)"
+                                  - name: "TBD"
+                                    positionName: "Gunner"
+                                    color: "rgb(0, 120, 180)"
+                                  - name: "TBD"
+                                    positionName: "Gunner"
+                                    color: "rgb(0, 120, 180)"
+                                  - name: "TBD"
+                                    positionName: "Gunner"
+                                    color: "rgb(0, 120, 180)"
+                                  - name: "TBD"
+                                    positionName: "Gunner"
+                                    color: "rgb(0, 120, 180)"
+                                  - name: "TBD"
+                                    positionName: "Gunner"
+                                    color: "rgb(0, 120, 180)"
+                                  - name: "TBD"
+                                    positionName: "Gunner"
+                                    color: "rgb(0, 120, 180)"
+                              - name: "Redeemer"
+                                isDivision: true
+                                color: "rgb(0, 120, 180)"
+                                children:
+                                  - name: "TBD"
+                                    positionName: "Captain"
+                                    color: "rgb(0, 80, 180)"
+                                  - name: "TBD"
+                                    positionName: "Pilot"
+                                    color: "rgb(0, 120, 180)"
+                                  - name: "TBD"
+                                    positionName: "Gunner"
+                                    color: "rgb(0, 120, 180)"
+                                  - name: "TBD"
+                                    positionName: "Gunner"
+                                    color: "rgb(0, 120, 180)"
+                                  - name: "TBD"
+                                    positionName: "Gunner"
+                                    color: "rgb(0, 120, 180)"
+                      - name: "CV-56 Flagship Group"
+                        isDivision: true
+                        isFireTeam: true
+                        color: "rgb(0, 120, 180)"
+                        children:
+                          - name: "TBD"
+                            positionName: "Flagship Group Leader"
+                            color: "rgb(0, 20, 120)"
+                            children:
+                              - name: "890 Jump"
+                                isDivision: true
+                                color: "rgb(0, 120, 180)"
+                                children:
+                                  - name: "TBD"
+                                    positionName: "Captain"
+                                    color: "rgb(0, 80, 180)"
+                                  - name: "TBD"
+                                    positionName: "Pilot"
+                                    color: "rgb(0, 120, 180)"
+                                  - name: "TBD"
+                                    positionName: "Gunner"
+                                    color: "rgb(0, 120, 180)"
+                                  - name: "TBD"
+                                    positionName: "Gunner"
+                                    color: "rgb(0, 120, 180)"
+                                  - name: "TBD"
+                                    positionName: "Gunner"
+                                    color: "rgb(0, 120, 180)"
+                                  - name: "TBD"
+                                    positionName: "Gunner"
+                                    color: "rgb(0, 120, 180)"
+                              - name: "600I"
+                                isDivision: true
+                                color: "rgb(0, 120, 180)"
+                                children:
+                                  - name: "TBD"
+                                    positionName: "Captain"
+                                    color: "rgb(0, 80, 180)"
+                                  - name: "TBD"
+                                    positionName: "Pilot"
+                                    color: "rgb(0, 120, 180)"
+                                  - name: "TBD"
+                                    positionName: "Gunner"
+                                    color: "rgb(0, 120, 180)"
+                                  - name: "TBD"
+                                    positionName: "Gunner"
+                                    color: "rgb(0, 120, 180)"
+            - name: "Valkyries"
+              isDivision: true
+              color: "darkred"
+              children:
+                - name: "Anathema-Nitt"
+                  color: orange
+                  positionName: "Valkyrie Commander"
+                  children:
+                  - name: "Intercept Fighter Specialty Group"
+                    isDivision: true
+                    color: "darkblue"
+                    children:
+                      - name: "110th Squadron"
+                        isDivision: true
+                        color: "darkred"
+                        children:
+                          - name: "110 A"
+                            isDivision: true
+                            isFireTeam: true
+                            color: "darkred"
+                            children:
+                              - name: "Jon_Kirk"
+                                color: orange
+                                positionName: "Flight Lead"
+                              - name: "IIvelocityII"
+                                color: orange
+                                positionName: "Alpha 2"
+                              - name: "Vazyrix"
+                                color: orange
+                                positionName: "Alpha 3"
+                              - name: "RioTorxx"
+                                color: orange
+                                positionName: "Alpha 4"
+                          - name: "110 B"
+                            isDivision: true
+                            isFireTeam: true
+                            color: "darkred"
+                            children:
+                              - name: "Whebies"
+                                color: orange
+                                positionName: "Alpha 2"
+                              - name: "Argent Shrike"
+                                color: orange
+                                positionName: "Alpha 3"
+                  - name: "Intercept Bomber Specialty Group"
+                    isDivision: true
+                    color: "darkblue"
+                    children:
+                      - name: "210th Squadron"
+                        isDivision: true
+                        color: "darkred"
+                        children:
+                          - name: "210 A"
+                            isDivision: true
+                            isFireTeam: true
+                            color: "darkred"
+                            children:
+                              - name: "Fyro"
+                                color: orange
+                                positionName: "Alpha 2"
+                          - name: "210 B"
+                            isDivision: true
+                            isFireTeam: true
+                            color: "darkred"
+                            children:
+                              - name: "Cynil"
+                                color: orange
+                                positionName: "Alpha 1"
+                  - name: "Strategic Bomber Specialty Group"
+                    isDivision: true
+                    color: "darkblue"
+                    children:
+                      - name: "310th Squadron"
+                        isDivision: true
+                        color: "darkred"
+                        children:
+                          - name: "310 A"
+                            isDivision: true
+                            isFireTeam: true
+                            color: "darkred"
+                  - name: "Support Specialty Group"
+                    isDivision: true
+                    color: "darkblue"
+                    children:
+                      - name: "410th Squadron"
+                        isDivision: true
+                        color: "darkred"
+                        children:
+                          - name: "410 A"
+                            isDivision: true
+                            isFireTeam: true
+                            color: "darkred"
+                            children:
+                              - name: "mahollo"
+                                color: orange
+                                positionName: "Alpha 2"
+                              - name: "ENDZER_36"
+                                color: orange
+                                positionName: "Alpha 3"
